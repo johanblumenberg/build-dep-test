@@ -1,0 +1,29 @@
+{
+  "name": "build-dep-test",
+  "version": "1.0.0",
+  "description": "Test build scripts of installed dependencies",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node log-activity.js prepublish",
+    "prepare": "node log-activity.js prepare",
+    "prepublishOnly": "node log-activity.js prepublishOnly",
+    "prepack": "node log-activity.js prepack",
+    "preinstall": "node log-activity.js preinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanblumenberg/build-dep-test.git"
+  },
+  "author": "johan.blumenberg@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanblumenberg/build-dep-test/issues"
+  },
+  "homepage": "https://github.com/johanblumenberg/build-dep-test#readme",
+  "dependencies": {
+    "is-negative": "^2.1.0"
+  },
+  "devDependencies": {
+    "is-positive": "^3.1.0"
+  }
+}
