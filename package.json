@@ -4,11 +4,7 @@
   "description": "Test build scripts of installed dependencies",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node log-activity.js prepublish",
-    "prepare": "node log-activity.js prepare",
-    "prepublishOnly": "node log-activity.js prepublishOnly",
-    "prepack": "node log-activity.js prepack",
-    "preinstall": "node log-activity.js preinstall"
+    "prepack": "node log-activity.js prepack"
   },
   "repository": {
     "type": "git",
